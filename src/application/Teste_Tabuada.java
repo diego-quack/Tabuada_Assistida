@@ -1,17 +1,25 @@
 package application;
 
+import java.security.SecureRandom;
+import java.util.Scanner;
+
 public class Teste_Tabuada {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		SecureRandom geradorDeNumeros = new SecureRandom();
+		Scanner input = new Scanner(System.in);
+		
+		
+		
+		input.close();
 
 	}
 	
-	public static void soma(int resultado) {
+	public static int soma(int x, int y) {
 		
-		int numeroUm = 0;
-		int numeroDois = 0;
-		resultado = numeroUm + numeroDois;
+		int resultado = x + y;
 		
+		return resultado;
 	}
 }
