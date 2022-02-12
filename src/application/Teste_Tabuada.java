@@ -6,5 +6,12 @@ public class Teste_Tabuada {
 		// TODO Auto-generated method stub
 
 	}
-
+	
+	public static void soma(int resultado) {
+		
+		int numeroUm = 0;
+		int numeroDois = 0;
+		resultado = numeroUm + numeroDois;
+		
+	}
 }
