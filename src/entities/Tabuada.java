@@ -3,7 +3,7 @@ package entities;
 public class Tabuada {
 	
 	public static int soma(int x, int y) {
-
+		
 		int resultado = x + y;
 
 		return resultado;

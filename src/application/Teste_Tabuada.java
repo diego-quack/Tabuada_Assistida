@@ -35,37 +35,46 @@ public class Teste_Tabuada {
 		}
 
 		if (operacao == 2) {
-			x = geradorDeNumeros.nextInt(10);
-			y = geradorDeNumeros.nextInt(10);
-			System.out.print(x + " - " + y + " = ");
-			int resultado = input.nextInt();
-			if (resultado == Tabuada.subtracao(x, y)) {
-				System.out.println("Correto!");
-			} else {
-				System.out.println("Errado!");
-			}
+
+			do {
+				x = geradorDeNumeros.nextInt(10);
+				y = geradorDeNumeros.nextInt(10);
+				System.out.print(x + " - " + y + " = ");
+				int resultado = input.nextInt();
+				if (resultado == Tabuada.subtracao(x, y)) {
+					System.out.println("Correto!");
+				} else {
+					System.out.println("Errado!");
+				}
+			} while (controlador == 1);
 		}
 		if (operacao == 3) {
-			x = geradorDeNumeros.nextInt(10);
-			y = geradorDeNumeros.nextInt(10);
-			System.out.print(x + " x " + y + " = ");
-			int resultado = input.nextInt();
-			if (resultado == Tabuada.multiplicacao(x, y)) {
-				System.out.println("Correto!");
-			} else {
-				System.out.println("Errado!");
-			}
+
+			do {
+				x = geradorDeNumeros.nextInt(10);
+				y = geradorDeNumeros.nextInt(10);
+				System.out.print(x + " x " + y + " = ");
+				int resultado = input.nextInt();
+				if (resultado == Tabuada.multiplicacao(x, y)) {
+					System.out.println("Correto!");
+				} else {
+					System.out.println("Errado!");
+				}
+			} while (controlador == 1);
 		}
 		if (operacao == 4) {
-			x = geradorDeNumeros.nextInt(10);
-			y = geradorDeNumeros.nextInt(10);
-			System.out.print(x + " / " + y + " = ");
-			int resultado = input.nextInt();
-			if (resultado == Tabuada.divisao(x, y)) {
-				System.out.println("Correto!");
-			} else {
-				System.out.println("Errado!");
-			}
+
+			do {
+				x = geradorDeNumeros.nextInt(10);
+				y = geradorDeNumeros.nextInt(10);
+				System.out.print(x + " / " + y + " = ");
+				int resultado = input.nextInt();
+				if (resultado == Tabuada.divisao(x, y)) {
+					System.out.println("Correto!");
+				} else {
+					System.out.println("Errado!");
+				}
+			} while (controlador == 1);
 		}
 
 		input.close();
